@@ -3,7 +3,7 @@ import "./carditem.css"; // For any additional custom styles
 
 function CardItem({ text, assing, video, value }) {
   return (
-    <div className="relative flex rounded-lg shadow-lg myMainItem hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:text-white">
+    <div className="relative flex rounded-lg shadow-lg myMainItem group hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:text-white">
       <div className="p-4 py-8 w-9/10">
         <div className="mb-4">
           <h2 className="font-semibold">{text}</h2>
@@ -12,7 +12,7 @@ function CardItem({ text, assing, video, value }) {
           </p>
         </div>
 
-        <button className="w-full py-2 font-semibold text-white rounded-lg mybtn bg-gradient-to-r from-purple-400 to-blue-500 group-hover:bg-white group-hover:text-blue-500">
+        <button className="w-full py-2 font-semibold text-white rounded-lg bg-gradient-to-r from-purple-400 to-blue-500 group-hover:bg-white group-hover:text-black group-hover:from-white group-hover:to-white">
           Continue Course
         </button>
       </div>
