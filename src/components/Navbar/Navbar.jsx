@@ -3,7 +3,7 @@ import { CiSearch } from "react-icons/ci";
 import { IoIosNotificationsOutline } from "react-icons/io";
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between p-4 bg-white shadow-md">
+    <div className="flex items-center justify-between p-4 bg-white ">
       {/* Left side with logo and Overview */}
       <div className="flex items-center space-x-6">
         <div className="flex items-center space-x-2">

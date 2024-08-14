@@ -1,9 +1,11 @@
 import Navbar from "./components/Navbar/Navbar";
+import DashboardLayout from "./DashboardLayout/DashboardLayout";
 
 function App() {
   return (
-    <div>
+    <div className="mx-auto ">
       <Navbar />
+      <DashboardLayout />
     </div>
   );
 }
