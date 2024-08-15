@@ -1,4 +1,5 @@
 import CardItem from "../components/CardItem/CardItem";
+import GrafVew from "../components/GrafVew/GrafVew";
 import Sidebar from "../components/Sidebar/Sidebar";
 
 function DashboardLayout() {
@@ -45,8 +46,8 @@ function DashboardLayout() {
         </div>
 
         {/* 50% width column */}
-        <div className="col-span-5 p-4 bg-red-500">
-          <p className="text-white">50% Width</p>
+        <div className="col-span-5 p-4 ">
+          <GrafVew />
         </div>
       </div>
     </div>
