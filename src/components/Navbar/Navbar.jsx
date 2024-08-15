@@ -42,7 +42,7 @@ const Navbar = () => {
         </button>
         <div className="flex items-center space-x-2">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGGQ9o4MYsp-hFfFHep9wx33Pv2Mdo0jZmig&s"
+            src="https://i.ibb.co/Y73MFcP/profile.png"
             alt="User Avatar"
             className="w-8 h-8 rounded-full"
           />

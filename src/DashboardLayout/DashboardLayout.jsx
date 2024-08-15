@@ -19,7 +19,28 @@ function DashboardLayout() {
               video={" 20 Videos"}
               value={"80"}
             />
-            <CardItem />
+
+            <CardItem
+              text={
+                "Start the UX Design Process: Empathize, Define, and Ideate"
+              }
+              assing={"4 Assignment"}
+              video={" 20 Videos"}
+              value={"65"}
+            />
+
+            <CardItem
+              text={"Build Wireframes and Low-Fidelity Prototypes"}
+              assing={"4 Assignment"}
+              video={" 20 Videos"}
+              value={"85"}
+            />
+            <CardItem
+              text={"Build Wireframes and Low-Fidelity Prototypes"}
+              assing={"4 Assignment"}
+              video={" 20 Videos"}
+              value={"85"}
+            />
           </div>
         </div>
 
